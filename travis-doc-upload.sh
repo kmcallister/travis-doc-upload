@@ -5,7 +5,7 @@
 
 set -e
 
-. ./.travis-doc-upload.cfg
+. ./scripts/travis-doc-upload.cfg
 
 [ "$TRAVIS_BRANCH" = master ]
 
