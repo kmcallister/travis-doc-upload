@@ -11,8 +11,6 @@ set -e
 
 [ "$TRAVIS_PULL_REQUEST" = false ]
 
-echo "<meta http-equiv=refresh content=0;url=`echo $TRAVIS_REPO_SLUG | cut -d '/' -f 2`/index.html>" > target/doc/index.html
-
 eval key=\$encrypted_${SSH_KEY_TRAVIS_ID}_key
 eval iv=\$encrypted_${SSH_KEY_TRAVIS_ID}_iv
 
