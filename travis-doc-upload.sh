@@ -7,6 +7,8 @@ set -e
 
 . ./scripts/travis-doc-upload.cfg
 
+[ "$TRAVIS_RUST_VERSION" = "nightly" ]
+
 [ "$TRAVIS_BRANCH" = master ]
 
 [ "$TRAVIS_PULL_REQUEST" = false ]
