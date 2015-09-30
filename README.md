@@ -20,7 +20,7 @@ So, this is what I did:
    somewhere *other* than `~/.ssh`. Don't specify a passphrase. This key will be used
    just for documentation uploads.
 
-2. Create a GitHub repo for hosting docs, and add that SSH key as a [deploy key](https://developer.github.com/guides/managing-deploy-keys/#deploy-keys) on the repo.
+2. Create a GitHub repo for hosting docs, and add that SSH key as a [deploy key](https://developer.github.com/guides/managing-deploy-keys/#deploy-keys) on the repo. Be sure to create and push a gh-pages branch on the repo.
 
 3. [Install the Travis CI gem, and log into GitHub](http://docs.travis-ci.com/user/encrypting-files/#Preparation).
 
