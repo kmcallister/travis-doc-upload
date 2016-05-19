@@ -53,7 +53,7 @@ You don't need to do this. Just save the hex ID of the file, which in the above 
 
 ### Step 2
 
-Also in `scripts`, create a file [`travis-doc-upload.cfg`](https://github.com/kmcallister/futf/blob/master/scripts/travis-doc-upload.cfg) similar to the following:
+Also in `scripts`, create a file [`travis-doc-upload.cfg`](https://github.com/kmcallister/travis-doc-upload/blob/master/travis-doc-upload.sh) similar to the following:
 
 ```
 PROJECT_NAME=futf
